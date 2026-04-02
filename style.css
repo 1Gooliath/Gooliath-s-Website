@@ -18,12 +18,9 @@
              background-position: center;
              background-size: cover;
              min-height: 100vh;
-             margin: auto;
-             
         }
 
-
-.container {
+.linkscontainer {
     width: 450px;
     display: flex;
     margin: auto;
@@ -51,26 +48,21 @@
             padding: 5px;
         }
 
-        .containerone {
-
+        .sidenotecontainer {
             margin: 20px auto;
-            text-align: center;
             height: 100px;
             width: 750px;
             position: relative;
             bottom: 300px; 
-
         }
 
-        .containertwo {
-
+        .introcontainer {
             margin: 20px auto;
             width: 750px;
         }
 
         .icons {
     display: flex;
-    justify-content: center;
     gap:15px;
     padding: 5px;
     position: relative;
@@ -82,16 +74,13 @@
     display: block;
     border-radius: 25px;
     filter: drop-shadow(0 0 5px rgb(0, 85, 134))
-    
-
 }
 
-.containerthree {
-
+.titlecontainer {
     margin: 10px;
 }
 
-.containerfour {
+.specscontainer {
     width: 275px;
     margin: auto;
     position: relative;
@@ -99,7 +88,6 @@
     bottom: 295px;
     height: 295px;
     bottom: 298px;
-
 }
 
         p.b {
@@ -107,12 +95,11 @@
             font-family: Comic Sans MS;
             font-size: larger;
             text-align: center;
-            padding: 35px;
+            padding: 38px;
         }
 
         .zoom {
             transition:transform 0.2s ease-in-out;
-
         }
 
         .zoom:hover {
